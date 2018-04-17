@@ -1,5 +1,6 @@
 package pe.edu.tecsup.guerra.sharedprefence;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
@@ -51,7 +52,12 @@ public class DashboardActivity extends AppCompatActivity {
 
         finish();
     }
+    public void tonext(View view){
 
+        startActivity(new Intent(this, MyPreferencesActivity.class));
+        finish();
+
+    }
 
     }
 

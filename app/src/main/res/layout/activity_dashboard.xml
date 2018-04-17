@@ -32,8 +32,19 @@
         android:background="@color/colorPrimary"
         android:textColor="@android:color/white"
         android:text="Logout"
-        android:onClick="callLogout"/>
+        android:onClick="callLogout"
+        android:id="@+id/button" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:onClick="tonext"
+        android:text="My preferences"
+        android:textColor="@android:color/white"
+        android:id="@+id/button2" />
 
 
 </RelativeLayout>
